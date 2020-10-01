@@ -1,5 +1,6 @@
 const socket = io()
 let name;
+var Audio=new audio('tone.mp3')
 let textarea = document.querySelector('#textarea')
 let messageArea = document.querySelector('.message__area')
 do {
@@ -31,7 +32,7 @@ function appendMessage(msg, type) {
     let mainDiv = document.createElement('div')
     let className = type
     mainDiv.classList.add(className, 'message')
-
+    Audio.play()
     let markup = `
         <h4>${msg.user}</h4>
         <p>${msg.message}</p>
@@ -42,6 +43,7 @@ function appendMessage(msg, type) {
 
 // Recieve messages 
 socket.on('message', (msg) => {
+    Audio.play()
     appendMessage(msg, 'incoming')
     scrollToBottom()
 })
