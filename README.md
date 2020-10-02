@@ -1,4 +1,6 @@
 # realtime-chat-app
+![realtime-chat-app](https://github.com/codersgyan/realtime-chat-app/blob/master/img/Capture.PNG)
+
 Realtime chat app using socket.io and vanilla JavaScript
 
 #### Demo: https://realtime-gyan-chat-app.herokuapp.com/
