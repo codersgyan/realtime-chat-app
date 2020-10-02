@@ -1,5 +1,5 @@
 # realtime-chat-app
-![ealtime-chat-app](https://github.com/aritrochakraborty29/www.predulive.org/blob/master/img/Capture.PNG)
+![realtime-chat-app](https://github.com/codersgyan/realtime-chat-app/blob/master/img/Capture.PNG)
 
 Realtime chat app using socket.io and vanilla JavaScript
 
