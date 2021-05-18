@@ -71,3 +71,14 @@ textarea {
     color: #333;
     font-size: 14px;
 }
+
+.icon{
+    font-size: 3.5em;
+}
+.items
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
