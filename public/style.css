@@ -54,6 +54,7 @@ textarea {
     margin-bottom: 40px;
     max-width: 300px;
     position: relative;
+    word-wrap: break-word;
 }
 .incoming {
     background: #8F8BE8;
