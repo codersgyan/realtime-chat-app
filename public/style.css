@@ -71,3 +71,17 @@ textarea {
     color: #333;
     font-size: 14px;
 }
+.typing-area{
+    display: flex;
+    flex: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.5rem;
+    gap: 0.3rem;
+}
+.typing-area #send-btn{
+    cursor: pointer;
+}
+#send-btn:active{
+    scale: 90%;
+}
